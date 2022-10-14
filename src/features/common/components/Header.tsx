@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <>
-      <h1>Create Next App</h1>
+      <h1>バグ文字コピペセンター</h1>
     </>
   );
 };
