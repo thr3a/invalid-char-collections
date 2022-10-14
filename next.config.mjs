@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: process.env.GITHUB_ACTIONS && 'invalid-char-collections',
+  basePath: process.env.GITHUB_ACTIONS && '/invalid-char-collections',
   trailingSlash: true,
   images: {
     unoptimized: true
