@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // basePath: process.env.GITHUB_ACTIONS && 'nextjs-template',
-  // trailingSlash: true,
+  basePath: process.env.GITHUB_ACTIONS && 'invalid-char-collections',
+  trailingSlash: true,
   images: {
     unoptimized: true
   }
